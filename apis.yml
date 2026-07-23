@@ -1,8 +1,29 @@
 aid: app-group-ness-czechia
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/app-group-ness-czechia.png
 name: APP Group  Ness Czechia
-description: APP Group  Ness Czechia is a company surfaced as a portfolio company of insight-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  APP Group (renamed Ness Czechia after its acquisition by Ness Digital Engineering)
+  is an enterprise IT services and systems-integration company headquartered in Prague,
+  Czech Republic, with offices in Brno and Ostrava. Operating today as Ness Czech s.r.o.,
+  it is one of the most significant SAP providers (SAP Gold Partner) in the Czech Republic
+  and the wider CEE region, delivering system integration, ERP and SAP S/4HANA
+  implementation, business intelligence, data analytics, eGovernment / eHealth registers,
+  core banking, pricing and billing, CRM and portals, IoT, and digital-platform
+  engineering to large enterprises and the public sector. It is not a public API provider:
+  it does not publish a developer portal, OpenAPI specifications, SDKs, or a self-serve API
+  program. This profile was surfaced as an Insight Partners portfolio company and is
+  maintained in the API Evangelist network as a company identity record.
 url: https://raw.githubusercontent.com/api-evangelist/app-group-ness-czechia/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -15,9 +36,32 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- IT Services
+- Systems Integration
+- SAP
+- ERP
+- Digital Engineering
+- Consulting
+- Czech Republic
+- Enterprise Software
+- eGovernment
 apis: []
+common:
+- type: DomainSecurity
+  url: security/app-group-ness-czechia-domain-security.yml
+- type: Website
+  url: https://www.ness.com/ness-czech/
+- type: About
+  url: https://www.ness.com/o-nas/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/ness-czech-sro/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
